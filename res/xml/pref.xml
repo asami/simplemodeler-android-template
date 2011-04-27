@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Application Setting">
+    <CheckBoxPreference
+      android:key="checkbox_value"
+      android:title="Setting1"
+      android:summary="sample of checkbox setting" />
+    <EditTextPreference
+      android:key="edittext_value"
+      android:title="Setting2"
+      android:summary="sample of edittext setting"
+      android:dialogTitle="Setting edittext"
+      android:dialogMessage="please set values" />
+    <ListPreference
+      android:key="list_value"
+      android:title="Setting3"
+      android:summary="sample of list setting"
+      android:entries="@array/setting_items"
+      android:entryValues="@array/setting_items_value" />
+    <RingtonePreference
+      android:key="ringtone_value"
+      android:title="Setting4"
+      android:summary="sample of ringtone setting"
+      android:showDefault="true"
+      android:showSilent="true"
+      android:ringtoneType="ringtone" />
+    <DialogPreference
+      android:key="dialog_value"
+      android:title="Setting5"
+      android:summary="sample of dialog setting" />
+    <PreferenceScreen>
+      <CheckBoxPreference
+	      android:key="checkbox_value2"
+    	  android:title="Setting6"
+    	  android:summary="sample of checkbox setting" />
+    </PreferenceScreen>
+  </PreferenceCategory>
+</PreferenceScreen>

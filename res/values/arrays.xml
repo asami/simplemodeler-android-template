@@ -1,0 +1,13 @@
+<resources>
+	<string-array name="setting_items">
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+	</string-array>
+
+	<string-array name="setting_items_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+</resources>

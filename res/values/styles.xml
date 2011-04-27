@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTheme.Black" parent="@android:style/Theme.Black">
+        <item name="android:windowBackground">@drawable/background_color</item>
+        <item name="android:colorBackground">@drawable/background_color</item>
+		
+		<!--  Button Style -->
+        <item name="android:buttonStyle">@style/CustomButton</item>
+
+        <!--  Checkbox Style -->
+		<item name="android:checkboxStyle">@style/CustomCheckBox</item>
+
+		<!--  RadioButton Style -->
+		<item name="android:radioButtonStyle">@style/CustomRadioButton</item>
+
+		<!--  EditText Style -->
+		<item name="android:editTextStyle">@style/CustomEditText</item>
+
+		<!--  SeekBar style -->
+		<item name="android:seekBarStyle">@style/CustomSeekBar</item>
+    </style>
+
+    <style name="CustomTheme.Light" parent="@android:style/Theme.Light">
+    </style>
+
+    <style name="CustomTheme.Dialog" parent="android:style/Theme.Dialog">
+    </style>
+
+    <style name="CustomTheme.Wallpaper" parent="android:style/Theme.Wallpaper">
+    </style>
+
+    <style name="CustomTheme.Translucent" parent="android:style/Theme.Translucent">
+    </style>
+    
+    <style name="CustomButton" parent="@android:style/Widget.Button">
+    	<!-- 
+		<item name="android:background">@drawable/button_stateful</item>
+		<item name="android:textColor">@color/textcolor_stateful</item>
+		-->
+	</style>
+    
+    <style name="CustomCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+    	<!-- 
+        <item name="android:button">@drawable/btn_check</item>
+		-->
+    </style>
+
+    <style name="CustomRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+    	<!-- 
+        <item name="android:button">@drawable/btn_radio</item>
+		-->
+    </style>
+
+    <style name="CustomEditText" parent="@android:style/Widget.EditText">
+    	<!-- 
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+		-->
+    </style>
+
+    <style name="CustomSeekBar" parent="@android:style/Widget.SeekBar">
+    	<!-- 
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_horizontal</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+        <item name="android:thumb">@drawable/seek_thumb</item>
+        <item name="android:thumbOffset">8dip</item>
+		-->
+    </style>
+</resources>
